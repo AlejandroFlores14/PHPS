@@ -1,0 +1,104 @@
+/* comentarios en Css*/
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family: 'Italic';
+	background-color: #91fb8da1;
+	background-repeat: repeat-y;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+header{
+	background-color: #13f1ed;
+	height: 100px;
+}
+footer{
+	background-color: #13f1ed;
+  	/*position: absolute;
+  	bottom: 0;*/
+  	width: 100%;
+  	height: 80px;
+  	position: absolute;
+  	bottom: -500px;
+  	
+
+  	
+
+}
+/*img{
+	height: 60px;
+	width: 60px;
+}*/
+
+
+/*ESTILOS PARA MENU*/
+#foot{
+	background-color: #13f1ed;
+  	/*position: absolute;
+  	bottom: 0;*/
+  	width: 100%;
+  	height: 80px;
+  	position: absolute;
+  	bottom: 0;
+}
+#cabe{
+	float: left;
+	height: 100%;
+	width: 15%;
+}
+
+#menuP{
+	margin-right: 10%;
+	color:black;
+	text-align: right;
+	margin-top: -2%;
+}
+#menuP ul{
+	list-style: none
+	
+}
+#menuP ul li{
+	display:inline-block;
+	text-align: right;
+}
+#menuP ul li a{
+	text-decoration: none;
+	color: white;
+	display:inline-block;
+	text-align: right;
+	padding: 10px;
+
+}
+#menuP ul li a:hover{
+	background-color: #91fb8da1;
+	color: skyblue;
+}
+
+#izq{
+
+	float: left;
+	color: white;
+	margin-left: 3%;
+}
+#dere{
+	text-align: right;
+	margin-right: 3%;
+	color:white;
+}
+#top{
+	margin-top: 10px;
+}
+#titu{
+	color: #13f1ed;
+}
+
+#dere p img{
+	height: 60px;
+	width: 60px;
+}
+
+
+
